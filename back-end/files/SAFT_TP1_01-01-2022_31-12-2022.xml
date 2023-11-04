@@ -1,0 +1,3268 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<AuditFile xmlns="urn:OECD:StandardAuditFile-Tax:PT_1.04_01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:OECD:StandardAuditFile-Tax:PT_1.04_01 ../schemas/SAF-T.xsd" xmlns:doc="urn:schemas-basda-org:schema-extensions:documentation">
+	<Header>
+		<AuditFileVersion>1.04_01</AuditFileVersion>
+		<CompanyID>Felgueiras 553952102</CompanyID>
+		<TaxRegistrationNumber>553952102</TaxRegistrationNumber>
+		<TaxAccountingBasis>I</TaxAccountingBasis>
+		<CompanyName>Engenheiros das Peles, Lda.</CompanyName>
+		<CompanyAddress>
+			<StreetName>Rua Padre José Peixoto, Estrada</StreetName>
+			<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+			<City>Felgueiras</City>
+			<PostalCode>4610-285</PostalCode>
+			<Region>Porto</Region>
+			<Country>PT</Country>
+		</CompanyAddress>
+		<FiscalYear>2022</FiscalYear>
+		<StartDate>2022-01-01</StartDate>
+		<EndDate>2022-12-31</EndDate>
+		<CurrencyCode>EUR</CurrencyCode>
+		<DateCreated>2022-05-30</DateCreated>
+		<TaxEntity>Sede</TaxEntity>
+		<ProductCompanyTaxID>503140600</ProductCompanyTaxID>
+		<SoftwareCertificateNumber>0030</SoftwareCertificateNumber>
+		<ProductID>ERP v750/PRIMAVERA Business Software Solutions</ProductID>
+		<ProductVersion>09.1507.1039</ProductVersion>
+		<Telephone>255 311 895</Telephone>
+		<Email>felgueiras@engenheirosdaspeles.pt</Email>
+	</Header>
+	<MasterFiles>
+		<GeneralLedgerAccounts>
+			<TaxonomyReference>S</TaxonomyReference>
+			<Account>
+				<AccountID>11</AccountID>
+				<AccountDescription>Caixa</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>27982.50</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>112</AccountID>
+				<AccountDescription>Caixa recebimentos</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>27982.50</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>11</GroupingCode>
+				<TaxonomyCode>1</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>21</AccountID>
+				<AccountDescription>Clientes</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>5300.94</ClosingDebitBalance>
+				<ClosingCreditBalance>27988.96</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>211</AccountID>
+				<AccountDescription>Clientes c/c</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>5300.94</ClosingDebitBalance>
+				<ClosingCreditBalance>27988.96</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>21</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2111</AccountID>
+				<AccountDescription>Clientes gerais</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>5300.94</ClosingDebitBalance>
+				<ClosingCreditBalance>27988.96</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>211</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>21111</AccountID>
+				<AccountDescription>Clientes - gr - mercado nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>5300.94</ClosingDebitBalance>
+				<ClosingCreditBalance>27988.96</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2111</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>211110004</AccountID>
+				<AccountDescription>Perfect Eject S.A.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>804.11</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>211110005</AccountID>
+				<AccountDescription>Martiape, Calçado, S.A.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>10.09</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>211110007</AccountID>
+				<AccountDescription>Jonil - Calçados, Lda.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>13222.50</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>211110008</AccountID>
+				<AccountDescription>Kyaia - Fortunato O. Frederico &amp; Cª Lda.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>4480.28</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>211110009</AccountID>
+				<AccountDescription>Marina Calçados, S.A.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>6.46</ClosingDebitBalance>
+				<ClosingCreditBalance>7435.66</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>211110013</AccountID>
+				<AccountDescription>Netos Fábrica De Calçado, Lda.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>7330.80</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>21111</GroupingCode>
+				<TaxonomyCode>10</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>22</AccountID>
+				<AccountDescription>Fornecedores</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1862332.75</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>221</AccountID>
+				<AccountDescription>Fornecedores c/c</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1862332.75</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>22</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2211</AccountID>
+				<AccountDescription>Fornecedores gerais</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1862332.75</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>221</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>22111</AccountID>
+				<AccountDescription>Fornecedores - gr - mercado nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1690173.75</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2211</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>221110004</AccountID>
+				<AccountDescription>Marsipel - Indústria de Cartumes S.A.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>332100.00</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110005</AccountID>
+				<AccountDescription>Curtumes Ibéria - Indústria de Curtumes S.A.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>108240.00</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110007</AccountID>
+				<AccountDescription>Carvalhos - Antonio Nunes de Carvalho, S.A.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>771517.50</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110008</AccountID>
+				<AccountDescription>Curtumes Boaventura, Lda</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>61500.00</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110009</AccountID>
+				<AccountDescription>Alcurte - Curtumes, S.A.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>317955.00</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221110010</AccountID>
+				<AccountDescription>Derma - Leather Comércio e Indústria de Peles, S.A</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>98861.25</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22111</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>22113</AccountID>
+				<AccountDescription>Fornecedores - gr - outros mercados</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>172159.00</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2211</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>221130006</AccountID>
+				<AccountDescription>Gruppo Mastrotto Spa</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1200.00</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22113</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>221130011</AccountID>
+				<AccountDescription>Hijos de Juan Martínez S.A.</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>170959.00</ClosingDebitBalance>
+				<ClosingCreditBalance>0.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>22113</GroupingCode>
+				<TaxonomyCode>37</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>24</AccountID>
+				<AccountDescription>Estado e outros entes públicos</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>243</AccountID>
+				<AccountDescription>Imposto sobre o valor acrescentado (IVA)</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>24</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2433</AccountID>
+				<AccountDescription>Iva - Liquidado</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>243</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>24331</AccountID>
+				<AccountDescription>Operacoes Gerais</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2433</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>243311</AccountID>
+				<AccountDescription>Iva Liq. - Vendas</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>24331</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2433111</AccountID>
+				<AccountDescription>Iva Liq. - Vendas-Continente</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>243311</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>24331113</AccountID>
+				<AccountDescription>Iva Liq. - Taxa Normal</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>2433111</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>2433111323</AccountID>
+				<AccountDescription>Iva Liq. - Taxa Normal-Tx.23%</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>24331113</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>24331113231</AccountID>
+				<AccountDescription>Iva Liq.- Tx. Nm.- Mercado Nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>1.21</ClosingDebitBalance>
+				<ClosingCreditBalance>991.24</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>2433111323</GroupingCode>
+				<TaxonomyCode>75</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>31</AccountID>
+				<AccountDescription>Compras</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>1862332.75</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>311</AccountID>
+				<AccountDescription>Mercadorias</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>1862332.75</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>31</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>3111</AccountID>
+				<AccountDescription>Compras-merc.-mercado nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>1690173.75</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>311</GroupingCode>
+				<TaxonomyCode>156</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>3113</AccountID>
+				<AccountDescription>Compras-merc.-outros mercados</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>0.00</ClosingDebitBalance>
+				<ClosingCreditBalance>172159.00</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>311</GroupingCode>
+				<TaxonomyCode>156</TaxonomyCode>
+			</Account>
+			<Account>
+				<AccountID>71</AccountID>
+				<AccountDescription>Vendas</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>5.25</ClosingDebitBalance>
+				<ClosingCreditBalance>4309.70</ClosingCreditBalance>
+				<GroupingCategory>GR</GroupingCategory>
+			</Account>
+			<Account>
+				<AccountID>711</AccountID>
+				<AccountDescription>Mercadorias</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>5.25</ClosingDebitBalance>
+				<ClosingCreditBalance>4309.70</ClosingCreditBalance>
+				<GroupingCategory>GA</GroupingCategory>
+				<GroupingCode>71</GroupingCode>
+			</Account>
+			<Account>
+				<AccountID>7111</AccountID>
+				<AccountDescription>Vendas-merc.-mercado nacional</AccountDescription>
+				<OpeningDebitBalance>0.00</OpeningDebitBalance>
+				<OpeningCreditBalance>0.00</OpeningCreditBalance>
+				<ClosingDebitBalance>5.25</ClosingDebitBalance>
+				<ClosingCreditBalance>4309.70</ClosingCreditBalance>
+				<GroupingCategory>GM</GroupingCategory>
+				<GroupingCode>711</GroupingCode>
+				<TaxonomyCode>506</TaxonomyCode>
+			</Account>
+		</GeneralLedgerAccounts>
+		<Customer>
+			<CustomerID>Consumidor final</CustomerID>
+			<AccountID>Desconhecido</AccountID>
+			<CustomerTaxID>999999990</CustomerTaxID>
+			<CompanyName>Consumidor final</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Desconhecido</AddressDetail>
+				<City>Desconhecido</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>Desconhecido</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Desconhecido</AddressDetail>
+				<City>Desconhecido</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>Desconhecido</Country>
+			</ShipToAddress>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT549620109_C</CustomerID>
+			<AccountID>211110004</AccountID>
+			<CustomerTaxID>549620109</CustomerTaxID>
+			<CompanyName>Perfect Eject S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Avenida agostinho Riveiro</AddressDetail>
+				<City>Felgueiras</City>
+				<PostalCode>4610-102</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Avenida agostinho Riveiro</AddressDetail>
+				<City>Felgueiras</City>
+				<PostalCode>4610-102</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>255336460</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT517303850_C</CustomerID>
+			<AccountID>211110005</AccountID>
+			<CustomerTaxID>517303850</CustomerTaxID>
+			<CompanyName>Martiape, Calçado, S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Três Cancelas - Calvário</AddressDetail>
+				<City>Lagares</City>
+				<PostalCode>4610-435</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Três Cancelas - Calvário</AddressDetail>
+				<City>Lagares</City>
+				<PostalCode>4610-435</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>255336460</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT501773576_C</CustomerID>
+			<AccountID>211110007</AccountID>
+			<CustomerTaxID>501773576</CustomerTaxID>
+			<CompanyName>Jonil - Calçados, Lda.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Lugar Da Estrada</AddressDetail>
+				<City>Felgueiras</City>
+				<PostalCode>4610-259</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Lugar Da Estrada</AddressDetail>
+				<City>Felgueiras</City>
+				<PostalCode>4610-259</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>255318750</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT505047748_C</CustomerID>
+			<AccountID>211110008</AccountID>
+			<CustomerTaxID>505047748</CustomerTaxID>
+			<CompanyName>Kyaia - Fortunato O. Frederico &amp; Cª Lda.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua 24 de Junho 453</AddressDetail>
+				<City>Penselo</City>
+				<PostalCode>4800-128</PostalCode>
+				<Region>Braga</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Rua 24 de Junho 453</AddressDetail>
+				<City>Penselo</City>
+				<PostalCode>4800-128</PostalCode>
+				<Region>Braga</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>253559140</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT500054711_C</CustomerID>
+			<AccountID>211110009</AccountID>
+			<CustomerTaxID>500054711</CustomerTaxID>
+			<CompanyName>Marina Calçados, S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua do Monte das Ruas, 187</AddressDetail>
+				<City>Felgueiras</City>
+				<PostalCode>4610-265</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Rua do Monte das Ruas, 187</AddressDetail>
+				<City>Felgueiras</City>
+				<PostalCode>4610-265</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>913609595</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT503152293_C</CustomerID>
+			<AccountID>211110010</AccountID>
+			<CustomerTaxID>503152293</CustomerTaxID>
+			<CompanyName>Rodiro - Fábrica de Calçado, Lda.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Travessa do Assento, 61</AddressDetail>
+				<City>Penacova</City>
+				<PostalCode>4610-504</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Travessa do Assento, 61</AddressDetail>
+				<City>Penacova</City>
+				<PostalCode>4610-504</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>255313900</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT501773770_C</CustomerID>
+			<AccountID>211110011</AccountID>
+			<CustomerTaxID>501773770</CustomerTaxID>
+			<CompanyName>Liago - Comércio e Industria de Calçado, S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua Santa Maria, 3211</AddressDetail>
+				<City>Sernande</City>
+				<PostalCode>4650-462</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Rua Santa Maria, 3211</AddressDetail>
+				<City>Sernande</City>
+				<PostalCode>4650-462</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>255340680</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT504218883_C</CustomerID>
+			<AccountID>211110012</AccountID>
+			<CustomerTaxID>504218883</CustomerTaxID>
+			<CompanyName>Tatuaggi - Indústria de Calçado, Lda - Racius</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua da Madeira, 587</AddressDetail>
+				<City>São João da Madeira</City>
+				<PostalCode>3700-176</PostalCode>
+				<Region>Aveiro</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Rua da Madeira, 587</AddressDetail>
+				<City>São João da Madeira</City>
+				<PostalCode>3700-176</PostalCode>
+				<Region>Aveiro</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>256379350</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Customer>
+			<CustomerID>PT500201455_C</CustomerID>
+			<AccountID>211110013</AccountID>
+			<CustomerTaxID>500201455</CustomerTaxID>
+			<CompanyName>Netos Fábrica De Calçado, Lda.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua António Luís da Costa 100</AddressDetail>
+				<City>São João da Madeira</City>
+				<PostalCode>3700-310</PostalCode>
+				<Region>Aveiro</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipToAddress>
+				<AddressDetail>Rua António Luís da Costa 100</AddressDetail>
+				<City>São João da Madeira</City>
+				<PostalCode>3700-310</PostalCode>
+				<Region>Aveiro</Region>
+				<Country>PT</Country>
+			</ShipToAddress>
+			<Telephone>256202640</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Customer>
+		<Supplier>
+			<SupplierID>573163979_F</SupplierID>
+			<AccountID>221110004</AccountID>
+			<SupplierTaxID>573163979</SupplierTaxID>
+			<CompanyName>Marsipel - Indústria de Cartumes S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Apartado 10</AddressDetail>
+				<City>Alcanena</City>
+				<PostalCode>2384-909</PostalCode>
+				<Region>Santarém</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Apartado 10</AddressDetail>
+				<City>Alcanena</City>
+				<PostalCode>2384-909</PostalCode>
+				<Region>Santarém</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 249887120</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>516471244_F</SupplierID>
+			<AccountID>221110005</AccountID>
+			<SupplierTaxID>516471244</SupplierTaxID>
+			<CompanyName>Curtumes Ibéria - Indústria de Curtumes S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua 24 de Junho, 1399</AddressDetail>
+				<City>Vila Moreira</City>
+				<PostalCode>2380-639</PostalCode>
+				<Region>Santarém</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Rua 24 de Junho, 1399</AddressDetail>
+				<City>Vila Moreira</City>
+				<PostalCode>2380-639</PostalCode>
+				<Region>Santarém</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 249890676</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>02629600244_F</SupplierID>
+			<AccountID>221130006</AccountID>
+			<SupplierTaxID>02629600244</SupplierTaxID>
+			<CompanyName>Gruppo Mastrotto Spa</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Quarta Strada, 7, 36071 Arzignano VI</AddressDetail>
+				<City>Arzignano VI</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>IT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Quarta Strada, 7, 36071 Arzignano VI</AddressDetail>
+				<City>Arzignano VI</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>IT</Country>
+			</ShipFromAddress>
+			<Telephone>+39 0444 621200</Telephone>
+			<Fax>+39.0444.621201</Fax>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>500025649_F</SupplierID>
+			<AccountID>221110007</AccountID>
+			<SupplierTaxID>500025649</SupplierTaxID>
+			<CompanyName>Carvalhos - Antonio Nunes de Carvalho, S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua do Norte, 178</AddressDetail>
+				<City>Felgueiras</City>
+				<PostalCode>2380-154</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Rua do Norte, 178</AddressDetail>
+				<City>Felgueiras</City>
+				<PostalCode>2380-154</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 249889050</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>501122850_F</SupplierID>
+			<AccountID>221110008</AccountID>
+			<SupplierTaxID>501122850</SupplierTaxID>
+			<CompanyName>Curtumes Boaventura, Lda</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Estrada do Alviela, 835, S. Pedro</AddressDetail>
+				<City>Alcanena</City>
+				<PostalCode>2380-184</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Estrada do Alviela, 835, S. Pedro</AddressDetail>
+				<City>Alcanena</City>
+				<PostalCode>2380-184</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 249887389</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>505204070_F</SupplierID>
+			<AccountID>221110009</AccountID>
+			<SupplierTaxID>505204070</SupplierTaxID>
+			<CompanyName>Alcurte - Curtumes, S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua de Sacadura Cabral 3</AddressDetail>
+				<City>Alcanena</City>
+				<PostalCode>2380-088</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Rua de Sacadura Cabral 3</AddressDetail>
+				<City>Alcanena</City>
+				<PostalCode>2380-088</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 249891933</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>506607704_F</SupplierID>
+			<AccountID>221110010</AccountID>
+			<SupplierTaxID>506607704</SupplierTaxID>
+			<CompanyName>Derma - Leather Comércio e Indústria de Peles, S.A</CompanyName>
+			<BillingAddress>
+				<AddressDetail>Rua da Cova</AddressDetail>
+				<City>Alcanena</City>
+				<PostalCode>2380-159</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>Rua da Cova</AddressDetail>
+				<City>Alcanena</City>
+				<PostalCode>2380-159</PostalCode>
+				<Region>Porto</Region>
+				<Country>PT</Country>
+			</ShipFromAddress>
+			<Telephone>+351 249891752</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Supplier>
+			<SupplierID>A30012009_F</SupplierID>
+			<AccountID>221130011</AccountID>
+			<SupplierTaxID>A30012009</SupplierTaxID>
+			<CompanyName>Hijos de Juan Martínez S.A.</CompanyName>
+			<BillingAddress>
+				<AddressDetail>RM-711, 168, 30814 Lorca</AddressDetail>
+				<City>Murcia</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>ES</Country>
+			</BillingAddress>
+			<ShipFromAddress>
+				<AddressDetail>RM-711, 168, 30814 Lorca</AddressDetail>
+				<City>Murcia</City>
+				<PostalCode>Desconhecido</PostalCode>
+				<Country>ES</Country>
+			</ShipFromAddress>
+			<Telephone>+349 68466664</Telephone>
+			<SelfBillingIndicator>0</SelfBillingIndicator>
+		</Supplier>
+		<Product>
+			<ProductType>O</ProductType>
+			<ProductCode>Especial</ProductCode>
+			<ProductGroup>Sem família</ProductGroup>
+			<ProductDescription>Linha especial</ProductDescription>
+			<ProductNumberCode>Especial</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>FAN.0001</ProductCode>
+			<ProductGroup>Forro Anilina</ProductGroup>
+			<ProductDescription>Anilina Vaca Camel 123</ProductDescription>
+			<ProductNumberCode>FAN.0001</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>FCR.0001</ProductCode>
+			<ProductGroup>Forro Crute</ProductGroup>
+			<ProductDescription>Anilina Crute Camel 123</ProductDescription>
+			<ProductNumberCode>FCR.0001</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PAF.0001</ProductCode>
+			<ProductGroup>Pele Afelpado</ProductGroup>
+			<ProductDescription>Pele Afelpado Negro 001 1214</ProductDescription>
+			<ProductNumberCode>PAF.0001</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PAF.0002</ProductCode>
+			<ProductGroup>Pele Afelpado</ProductGroup>
+			<ProductDescription>Pele Afelpado Navy 075 1214</ProductDescription>
+			<ProductNumberCode>PAF.0002</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PCM.0001</ProductCode>
+			<ProductGroup>Pele Camurça</ProductGroup>
+			<ProductDescription>Pele Camurça Negro 001 1416</ProductDescription>
+			<ProductNumberCode>PCM.0001</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PCR.0001</ProductCode>
+			<ProductGroup>Pele Crust</ProductGroup>
+			<ProductDescription>Pele Novilhos Crust Negro 001 1214</ProductDescription>
+			<ProductNumberCode>PCR.0001</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PCR.0003</ProductCode>
+			<ProductGroup>Pele Crust</ProductGroup>
+			<ProductDescription>Pele Novilhos Crust Camel 123 1214</ProductDescription>
+			<ProductNumberCode>PCR.0003</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PNB.0001</ProductCode>
+			<ProductGroup>Pele Nobuck</ProductGroup>
+			<ProductDescription>Pele Novilhos Nobuck Negro 001 1416</ProductDescription>
+			<ProductNumberCode>PNB.0001</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PNB.0002</ProductCode>
+			<ProductGroup>Pele Nobuck</ProductGroup>
+			<ProductDescription>Pele Novilhos Nobuck Navy 075 1416</ProductDescription>
+			<ProductNumberCode>PNB.0002</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PNB.0003</ProductCode>
+			<ProductGroup>Pele Nobuck</ProductGroup>
+			<ProductDescription>Pele Novilhos Nobuck Camel 123 1416</ProductDescription>
+			<ProductNumberCode>PNB.0003</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PVZ.0001</ProductCode>
+			<ProductGroup>Pele Nobuck</ProductGroup>
+			<ProductDescription>Pele Vacas Verniz Negro 001 1416</ProductDescription>
+			<ProductNumberCode>PVZ.0001</ProductNumberCode>
+		</Product>
+		<Product>
+			<ProductType>P</ProductType>
+			<ProductCode>PVZ.0002</ProductCode>
+			<ProductGroup>Pele Verniz</ProductGroup>
+			<ProductDescription>Pele Vacas Verniz Navy 075 1416</ProductDescription>
+			<ProductNumberCode>PVZ.0002</ProductNumberCode>
+		</Product>
+		<TaxTable>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Isenta</Description>
+				<TaxPercentage>0.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>4.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>RED</TaxCode>
+				<Description>Reduzida</Description>
+				<TaxPercentage>5.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>RED</TaxCode>
+				<Description>Reduzida</Description>
+				<TaxPercentage>6.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>9.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>INT</TaxCode>
+				<Description>Intermédia</Description>
+				<TaxPercentage>12.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>INT</TaxCode>
+				<Description>Intermédia</Description>
+				<TaxPercentage>13.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>15.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>22.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>NOR</TaxCode>
+				<Description>Normal</Description>
+				<TaxPercentage>23.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>23.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Isenta</Description>
+				<TaxPercentage>0.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>4.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>9.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-AC</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>16.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-MA</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Isenta</Description>
+				<TaxPercentage>0.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-MA</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>5.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-MA</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>12.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IVA</TaxType>
+				<TaxCountryRegion>PT-MA</TaxCountryRegion>
+				<TaxCode>OUT</TaxCode>
+				<Description>Outras</Description>
+				<TaxPercentage>22.00</TaxPercentage>
+			</TaxTableEntry>
+			<TaxTableEntry>
+				<TaxType>IS</TaxType>
+				<TaxCountryRegion>PT</TaxCountryRegion>
+				<TaxCode>ISE</TaxCode>
+				<Description>Isento</Description>
+				<TaxPercentage>0.00</TaxPercentage>
+			</TaxTableEntry>
+		</TaxTable>
+	</MasterFiles>
+	<GeneralLedgerEntries>
+		<NumberOfEntries>19</NumberOfEntries>
+		<TotalDebit>1895622.65</TotalDebit>
+		<TotalCredit>1895622.65</TotalCredit>
+		<Journal>
+			<JournalID>00031</JournalID>
+			<Description>Bancos - Depósitos</Description>
+			<Transaction>
+				<TransactionID>2022-09-19 00031 90001</TransactionID>
+				<Period>9</Period>
+				<TransactionDate>2022-09-19</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>RE Nº 2/A</Description>
+				<DocArchivalNumber>90001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-28</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110013</AccountID>
+						<SourceDocumentID>RE A/2</SourceDocumentID>
+						<SystemEntryDate>2022-05-28T12:14:50</SystemEntryDate>
+						<Description>RE Nº 2/A</Description>
+						<CreditAmount>7330.80</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>112</AccountID>
+						<SourceDocumentID>RE A/2</SourceDocumentID>
+						<SystemEntryDate>2022-05-28T12:14:50</SystemEntryDate>
+						<Description>RE Nº 2/A</Description>
+						<DebitAmount>7330.80</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-10-03 00031 100001</TransactionID>
+				<Period>10</Period>
+				<TransactionDate>2022-10-03</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>RE Nº 1/A</Description>
+				<DocArchivalNumber>100001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-28</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110007</AccountID>
+						<SourceDocumentID>RE A/1</SourceDocumentID>
+						<SystemEntryDate>2022-05-28T12:05:23</SystemEntryDate>
+						<Description>RE Nº 1/A</Description>
+						<CreditAmount>13222.50</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>112</AccountID>
+						<SourceDocumentID>RE A/1</SourceDocumentID>
+						<SystemEntryDate>2022-05-28T12:05:23</SystemEntryDate>
+						<Description>RE Nº 1/A</Description>
+						<DebitAmount>13222.50</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-11-16 00031 110001</TransactionID>
+				<Period>11</Period>
+				<TransactionDate>2022-11-16</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>RE Nº 3/A</Description>
+				<DocArchivalNumber>110001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-28</GLPostingDate>
+				<Lines>
+					<CreditLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110009</AccountID>
+						<SourceDocumentID>RE A/3</SourceDocumentID>
+						<SystemEntryDate>2022-05-28T14:37:17</SystemEntryDate>
+						<Description>RE Nº 3/A</Description>
+						<CreditAmount>7429.20</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>2</RecordID>
+						<AccountID>112</AccountID>
+						<SourceDocumentID>RE A/3</SourceDocumentID>
+						<SystemEntryDate>2022-05-28T14:37:17</SystemEntryDate>
+						<Description>RE Nº 3/A</Description>
+						<DebitAmount>7429.20</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+		<Journal>
+			<JournalID>00041</JournalID>
+			<Description>Compras - MN</Description>
+			<Transaction>
+				<TransactionID>2022-01-17 00041 10002</TransactionID>
+				<Period>1</Period>
+				<TransactionDate>2022-01-17</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 2/A</Description>
+				<DocArchivalNumber>10002</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-27</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110004</AccountID>
+						<SourceDocumentID>VFA A/2</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:24:50</SystemEntryDate>
+						<Description>VFA Nº 2/A</Description>
+						<DebitAmount>110700.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/2</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:24:50</SystemEntryDate>
+						<Description>VFA Nº 2/A</Description>
+						<CreditAmount>110700.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-02-21 00041 20001</TransactionID>
+				<Period>2</Period>
+				<TransactionDate>2022-02-21</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 4/A</Description>
+				<DocArchivalNumber>20001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110005</AccountID>
+						<SourceDocumentID>VFA A/4</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:43:22</SystemEntryDate>
+						<Description>VFA Nº 4/A</Description>
+						<DebitAmount>108240.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/4</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:43:22</SystemEntryDate>
+						<Description>VFA Nº 4/A</Description>
+						<CreditAmount>108240.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-03-14 00041 30001</TransactionID>
+				<Period>3</Period>
+				<TransactionDate>2022-03-14</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 5/A</Description>
+				<DocArchivalNumber>30001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110007</AccountID>
+						<SourceDocumentID>VFA A/5</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:49:17</SystemEntryDate>
+						<Description>VFA Nº 5/A</Description>
+						<DebitAmount>429270.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/5</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:49:17</SystemEntryDate>
+						<Description>VFA Nº 5/A</Description>
+						<CreditAmount>429270.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-04-11 00041 40001</TransactionID>
+				<Period>4</Period>
+				<TransactionDate>2022-04-11</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 3/A</Description>
+				<DocArchivalNumber>40001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-21</GLPostingDate>
+				<SupplierID>02629600244_F</SupplierID>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221130006</AccountID>
+						<SourceDocumentID>VFA A/3</SourceDocumentID>
+						<SystemEntryDate>2022-05-21T17:28:55</SystemEntryDate>
+						<Description>VFA Nº 3/A</Description>
+						<DebitAmount>1200.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3113</AccountID>
+						<SourceDocumentID>VFA A/3</SourceDocumentID>
+						<SystemEntryDate>2022-05-21T17:28:55</SystemEntryDate>
+						<Description>VFA Nº 3/A</Description>
+						<CreditAmount>1200.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-05-16 00041 50001</TransactionID>
+				<Period>5</Period>
+				<TransactionDate>2022-05-16</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 6/A</Description>
+				<DocArchivalNumber>50001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110008</AccountID>
+						<SourceDocumentID>VFA A/6</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:53:36</SystemEntryDate>
+						<Description>VFA Nº 6/A</Description>
+						<DebitAmount>61500.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/6</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:53:36</SystemEntryDate>
+						<Description>VFA Nº 6/A</Description>
+						<CreditAmount>61500.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-06-15 00041 60001</TransactionID>
+				<Period>6</Period>
+				<TransactionDate>2022-06-15</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 8/A</Description>
+				<DocArchivalNumber>60001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110010</AccountID>
+						<SourceDocumentID>VFA A/8</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:57:32</SystemEntryDate>
+						<Description>VFA Nº 8/A</Description>
+						<DebitAmount>98861.25</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/8</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:57:32</SystemEntryDate>
+						<Description>VFA Nº 8/A</Description>
+						<CreditAmount>98861.25</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-07-12 00041 70001</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2022-07-12</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 7/A</Description>
+				<DocArchivalNumber>70001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110009</AccountID>
+						<SourceDocumentID>VFA A/7</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:55:47</SystemEntryDate>
+						<Description>VFA Nº 7/A</Description>
+						<DebitAmount>302580.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/7</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T16:55:47</SystemEntryDate>
+						<Description>VFA Nº 7/A</Description>
+						<CreditAmount>302580.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-08-22 00041 80001</TransactionID>
+				<Period>8</Period>
+				<TransactionDate>2022-08-22</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 9/A</Description>
+				<DocArchivalNumber>80001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<SupplierID>A30012009_F</SupplierID>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221130011</AccountID>
+						<SourceDocumentID>VFA A/9</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:00:24</SystemEntryDate>
+						<Description>VFA Nº 9/A</Description>
+						<DebitAmount>170959.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3113</AccountID>
+						<SourceDocumentID>VFA A/9</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:00:24</SystemEntryDate>
+						<Description>VFA Nº 9/A</Description>
+						<CreditAmount>170959.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-09-21 00041 90001</TransactionID>
+				<Period>9</Period>
+				<TransactionDate>2022-09-21</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 10/A</Description>
+				<DocArchivalNumber>90001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110007</AccountID>
+						<SourceDocumentID>VFA A/10</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:02:47</SystemEntryDate>
+						<Description>VFA Nº 10/A</Description>
+						<DebitAmount>66420.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/10</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:02:47</SystemEntryDate>
+						<Description>VFA Nº 10/A</Description>
+						<CreditAmount>66420.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-10-24 00041 100001</TransactionID>
+				<Period>10</Period>
+				<TransactionDate>2022-10-24</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 11/A</Description>
+				<DocArchivalNumber>100001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110007</AccountID>
+						<SourceDocumentID>VFA A/11</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:07:24</SystemEntryDate>
+						<Description>VFA Nº 11/A</Description>
+						<DebitAmount>275827.50</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/11</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:07:24</SystemEntryDate>
+						<Description>VFA Nº 11/A</Description>
+						<CreditAmount>275827.50</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-11-15 00041 110001</TransactionID>
+				<Period>11</Period>
+				<TransactionDate>2022-11-15</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 12/A</Description>
+				<DocArchivalNumber>110001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110009</AccountID>
+						<SourceDocumentID>VFA A/12</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:37:22</SystemEntryDate>
+						<Description>VFA Nº 12/A</Description>
+						<DebitAmount>15375.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/12</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:37:22</SystemEntryDate>
+						<Description>VFA Nº 12/A</Description>
+						<CreditAmount>15375.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-12-13 00041 120001</TransactionID>
+				<Period>12</Period>
+				<TransactionDate>2022-12-13</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>VFA Nº 13/A</Description>
+				<DocArchivalNumber>120001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-22</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>221110004</AccountID>
+						<SourceDocumentID>VFA A/13</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:39:35</SystemEntryDate>
+						<Description>VFA Nº 13/A</Description>
+						<DebitAmount>221400.00</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>3111</AccountID>
+						<SourceDocumentID>VFA A/13</SourceDocumentID>
+						<SystemEntryDate>2022-05-22T17:39:35</SystemEntryDate>
+						<Description>VFA Nº 13/A</Description>
+						<CreditAmount>221400.00</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+		<Journal>
+			<JournalID>00051</JournalID>
+			<Description>Vendas - Crédito - MN</Description>
+			<Transaction>
+				<TransactionID>2022-01-31 00051 10001</TransactionID>
+				<Period>1</Period>
+				<TransactionDate>2022-01-31</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>FA Nº 1/A</Description>
+				<DocArchivalNumber>10001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-21</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110004</AccountID>
+						<SourceDocumentID>FA A/1</SourceDocumentID>
+						<SystemEntryDate>2022-05-21T17:14:12</SystemEntryDate>
+						<Description>FA Nº 1/A</Description>
+						<DebitAmount>804.11</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>7111</AccountID>
+						<SourceDocumentID>FA A/1</SourceDocumentID>
+						<SystemEntryDate>2022-05-21T17:14:12</SystemEntryDate>
+						<Description>FA Nº 1/A</Description>
+						<CreditAmount>653.75</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>3</RecordID>
+						<AccountID>24331113231</AccountID>
+						<SourceDocumentID>FA A/1</SourceDocumentID>
+						<SystemEntryDate>2022-05-21T17:14:12</SystemEntryDate>
+						<Description>FA Nº 1/A</Description>
+						<CreditAmount>150.36</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-06-13 00051 60001</TransactionID>
+				<Period>6</Period>
+				<TransactionDate>2022-06-13</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>FA Nº 2/A</Description>
+				<DocArchivalNumber>60001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-21</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110005</AccountID>
+						<SourceDocumentID>FA A/2</SourceDocumentID>
+						<SystemEntryDate>2022-05-21T17:15:00</SystemEntryDate>
+						<Description>FA Nº 2/A</Description>
+						<DebitAmount>10.09</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>7111</AccountID>
+						<SourceDocumentID>FA A/2</SourceDocumentID>
+						<SystemEntryDate>2022-05-21T17:15:00</SystemEntryDate>
+						<Description>FA Nº 2/A</Description>
+						<CreditAmount>8.20</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>3</RecordID>
+						<AccountID>24331113231</AccountID>
+						<SourceDocumentID>FA A/2</SourceDocumentID>
+						<SystemEntryDate>2022-05-21T17:15:00</SystemEntryDate>
+						<Description>FA Nº 2/A</Description>
+						<CreditAmount>1.89</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-07-18 00051 70001</TransactionID>
+				<Period>7</Period>
+				<TransactionDate>2022-07-18</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>FA Nº 3/A</Description>
+				<DocArchivalNumber>70001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-27</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110008</AccountID>
+						<SourceDocumentID>FA A/3</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:51:07</SystemEntryDate>
+						<Description>FA Nº 3/A</Description>
+						<DebitAmount>4480.28</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>7111</AccountID>
+						<SourceDocumentID>FA A/3</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:51:07</SystemEntryDate>
+						<Description>FA Nº 3/A</Description>
+						<CreditAmount>3642.50</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>3</RecordID>
+						<AccountID>24331113231</AccountID>
+						<SourceDocumentID>FA A/3</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:51:07</SystemEntryDate>
+						<Description>FA Nº 3/A</Description>
+						<CreditAmount>837.78</CreditAmount>
+					</CreditLine>
+				</Lines>
+			</Transaction>
+			<Transaction>
+				<TransactionID>2022-08-18 00051 80001</TransactionID>
+				<Period>8</Period>
+				<TransactionDate>2022-08-18</TransactionDate>
+				<SourceID>estg</SourceID>
+				<Description>FA Nº 4/A</Description>
+				<DocArchivalNumber>80001</DocArchivalNumber>
+				<TransactionType>N</TransactionType>
+				<GLPostingDate>2022-05-27</GLPostingDate>
+				<Lines>
+					<DebitLine>
+						<RecordID>1</RecordID>
+						<AccountID>211110009</AccountID>
+						<SourceDocumentID>FA A/4</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:52:37</SystemEntryDate>
+						<Description>FA Nº 4/A</Description>
+						<DebitAmount>6.46</DebitAmount>
+					</DebitLine>
+					<CreditLine>
+						<RecordID>2</RecordID>
+						<AccountID>7111</AccountID>
+						<SourceDocumentID>FA A/4</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:52:37</SystemEntryDate>
+						<Description>FA Nº 4/A</Description>
+						<CreditAmount>5.25</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>3</RecordID>
+						<AccountID>24331113231</AccountID>
+						<SourceDocumentID>FA A/4</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:52:37</SystemEntryDate>
+						<Description>FA Nº 4/A</Description>
+						<CreditAmount>1.21</CreditAmount>
+					</CreditLine>
+					<CreditLine>
+						<RecordID>4</RecordID>
+						<AccountID>211110009</AccountID>
+						<SourceDocumentID>FA A/4</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:52:37</SystemEntryDate>
+						<Description>Estorno do documento  Anulação</Description>
+						<CreditAmount>6.46</CreditAmount>
+					</CreditLine>
+					<DebitLine>
+						<RecordID>5</RecordID>
+						<AccountID>7111</AccountID>
+						<SourceDocumentID>FA A/4</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:52:37</SystemEntryDate>
+						<Description>Estorno do documento  Anulação</Description>
+						<DebitAmount>5.25</DebitAmount>
+					</DebitLine>
+					<DebitLine>
+						<RecordID>6</RecordID>
+						<AccountID>24331113231</AccountID>
+						<SourceDocumentID>FA A/4</SourceDocumentID>
+						<SystemEntryDate>2022-05-27T10:52:37</SystemEntryDate>
+						<Description>Estorno do documento  Anulação</Description>
+						<DebitAmount>1.21</DebitAmount>
+					</DebitLine>
+				</Lines>
+			</Transaction>
+		</Journal>
+	</GeneralLedgerEntries>
+	<SourceDocuments>
+		<SalesInvoices>
+			<NumberOfEntries>10</NumberOfEntries>
+			<TotalDebit>0.00</TotalDebit>
+			<TotalCredit>1920943.85</TotalCredit>
+			<Invoice>
+				<InvoiceNo>FA A/1</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-19T22:37:23</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>EY+gOyR3/FB7s0cmxWib+Uhl75/nINyA7Y6BpaQf2KwJcQwO3djAZhFEkUPVf1YtQyaXYNnJdrFLF6cvhMsyUjkz2uj6yYpLnpW/rrmjP8X7TXmgwcyHko3UXwrgsDGj/H43tDVagtznNfb+lGODtJ5J8ZYnBDg6SQE5KQQvOs8=</Hash>
+				<HashControl>1</HashControl>
+				<Period>01</Period>
+				<InvoiceDate>2022-01-31</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-19T22:37:23</SystemEntryDate>
+				<TransactionID>2022-01-31 00051 10001</TransactionID>
+				<CustomerID>PT549620109_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-19</DeliveryDate>
+					<Address>
+						<AddressDetail>Avenida agostinho Riveiro</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-102</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-19</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-19T22:37:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>PCR.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Negro 001 1214</ProductDescription>
+					<Quantity>100</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.8</UnitPrice>
+					<TaxPointDate>2022-01-31</TaxPointDate>
+					<Description>Pele Novilhos Crust Negro 001 1214</Description>
+					<CreditAmount>180.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PNB.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Negro 001 1416</ProductDescription>
+					<Quantity>100</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.4</UnitPrice>
+					<TaxPointDate>2022-01-31</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Negro 001 1416</Description>
+					<CreditAmount>240.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PVZ.0001</ProductCode>
+					<ProductDescription>Pele Vacas Verniz Negro 001 1416</ProductDescription>
+					<Quantity>50</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.65</UnitPrice>
+					<TaxPointDate>2022-01-31</TaxPointDate>
+					<Description>Pele Vacas Verniz Negro 001 1416</Description>
+					<CreditAmount>132.50</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>PCM.0001</ProductCode>
+					<ProductDescription>Pele Camurça Negro 001 1416</ProductDescription>
+					<Quantity>75</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.35</UnitPrice>
+					<TaxPointDate>2022-01-31</TaxPointDate>
+					<Description>Pele Camurça Negro 001 1416</Description>
+					<CreditAmount>101.25</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>150.36</TaxPayable>
+					<NetTotal>653.75</NetTotal>
+					<GrossTotal>804.11</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/2</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-20T18:59:34</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>YPcnbo3c+O8QqZ/r7nMz7iVhbzU+kYGx/6y00f7cc7sM/kqYyKK1Sig2/d9g51DeKYP0Qc+TxRDJb1zqFUsJLzpr2ijFAIoabop6DtJSrYAo4mkqTCbbC5QugFQvTm1gGjOtJLBAsu61GDWJvzpiRhBHlR9YesaAdRuXy6M88Bg=</Hash>
+				<HashControl>1</HashControl>
+				<Period>06</Period>
+				<InvoiceDate>2022-06-13</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-20T18:59:34</SystemEntryDate>
+				<TransactionID>2022-06-13 00051 60001</TransactionID>
+				<CustomerID>PT517303850_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-20</DeliveryDate>
+					<Address>
+						<AddressDetail>Três Cancelas - Calvário</AddressDetail>
+						<City>Lagares</City>
+						<PostalCode>4610-435</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-20</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-20T19:01:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>PCR.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Negro 001 1214</ProductDescription>
+					<Quantity>1</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.8</UnitPrice>
+					<TaxPointDate>2022-06-13</TaxPointDate>
+					<Description>Pele Novilhos Crust Negro 001 1214</Description>
+					<CreditAmount>1.80</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PNB.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Negro 001 1416</ProductDescription>
+					<Quantity>1</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.4</UnitPrice>
+					<TaxPointDate>2022-06-13</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Negro 001 1416</Description>
+					<CreditAmount>2.40</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PVZ.0001</ProductCode>
+					<ProductDescription>Pele Vacas Verniz Negro 001 1416</ProductDescription>
+					<Quantity>1</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.65</UnitPrice>
+					<TaxPointDate>2022-06-13</TaxPointDate>
+					<Description>Pele Vacas Verniz Negro 001 1416</Description>
+					<CreditAmount>2.65</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>PCM.0001</ProductCode>
+					<ProductDescription>Pele Camurça Negro 001 1416</ProductDescription>
+					<Quantity>1</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.35</UnitPrice>
+					<TaxPointDate>2022-06-13</TaxPointDate>
+					<Description>Pele Camurça Negro 001 1416</Description>
+					<CreditAmount>1.35</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>1.89</TaxPayable>
+					<NetTotal>8.20</NetTotal>
+					<GrossTotal>10.09</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/3</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-27T10:51:06</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>Evk0b69PssQCdfPiFM3c5NDAbnfbZcRjtfu5gYzzyFQDsVl1JlJz9HlgTn15tEWKGKbS8CMIfr2M+8fQAv5uh4RDHVxOI6BG9dq7ZENGAOAJuKUgtKucYO/JbzFkI3VtKqp6HExxxs2nhpzdFl6VrEIlYaq6uKPLD5fIc3P+Es0=</Hash>
+				<HashControl>1</HashControl>
+				<Period>07</Period>
+				<InvoiceDate>2022-07-18</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-27T10:51:06</SystemEntryDate>
+				<TransactionID>2022-07-18 00051 70001</TransactionID>
+				<CustomerID>PT505047748_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-27</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua 24 de Junho 453</AddressDetail>
+						<City>Penselo</City>
+						<PostalCode>4800-128</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-27</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-27T10:51:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>PAF.0002</ProductCode>
+					<ProductDescription>Pele Afelpado Navy 075 1214</ProductDescription>
+					<Quantity>900</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.25</UnitPrice>
+					<TaxPointDate>2022-07-18</TaxPointDate>
+					<Description>Pele Afelpado Navy 075 1214</Description>
+					<CreditAmount>1125.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PVZ.0002</ProductCode>
+					<ProductDescription>Pele Vacas Verniz Navy 075 1416</ProductDescription>
+					<Quantity>950</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.65</UnitPrice>
+					<TaxPointDate>2022-07-18</TaxPointDate>
+					<Description>Pele Vacas Verniz Navy 075 1416</Description>
+					<CreditAmount>2517.50</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>837.78</TaxPayable>
+					<NetTotal>3642.50</NetTotal>
+					<GrossTotal>4480.28</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/4</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>A</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-28T00:00:00</InvoiceStatusDate>
+					<Reason>Erro nas quantidades/preços</Reason>
+					<SourceID>estg</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>edidS851JbNwAy+nAvmCCNCRGm5uzIbqneFE/AkO5T8WYr1OlMaLpPSl8piAokfdWdXVS50VDtXQzxTafVmm/VDipYBDE77kvJv64tYTiWZcA4ULi9f39jGntr4kblS0t9eLbk5uI8GhSABrFae/NdpWwiyYzJ/GRhQlX42mzyQ=</Hash>
+				<HashControl>1</HashControl>
+				<Period>08</Period>
+				<InvoiceDate>2022-08-18</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>0</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-27T10:52:37</SystemEntryDate>
+				<TransactionID>2022-08-18 00051 80001</TransactionID>
+				<CustomerID>PT500054711_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-27</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua do Monte das Ruas, 187</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-265</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-27</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-27T10:54:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>FCR.0001</ProductCode>
+					<ProductDescription>Anilina Crute Camel 123</ProductDescription>
+					<Quantity>1</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>0.8</UnitPrice>
+					<TaxPointDate>2022-08-18</TaxPointDate>
+					<Description>Anilina Crute Camel 123</Description>
+					<CreditAmount>0.80</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PCR.0003</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Camel 123 1214</ProductDescription>
+					<Quantity>1</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.8</UnitPrice>
+					<TaxPointDate>2022-08-18</TaxPointDate>
+					<Description>Pele Novilhos Crust Camel 123 1214</Description>
+					<CreditAmount>1.80</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PVZ.0001</ProductCode>
+					<ProductDescription>Pele Vacas Verniz Negro 001 1416</ProductDescription>
+					<Quantity>1</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.65</UnitPrice>
+					<TaxPointDate>2022-08-18</TaxPointDate>
+					<Description>Pele Vacas Verniz Negro 001 1416</Description>
+					<CreditAmount>2.65</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>1.21</TaxPayable>
+					<NetTotal>5.25</NetTotal>
+					<GrossTotal>6.46</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/5</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-28T10:16:31</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>MYQhOjfRa+J+c9M/ojTIr+AlI7YRPXxkK3G+K+YIt2BJn8qQiCLQJN8MWEHdL3jwFEAO/3x6Z5qE4yqSjC6OVeekjRLVsVGxLOiZe7KUGwr7sqPy9YATsdgsM/Kd5odeFiHIuq3NL2gLKIXRNn1Ngq94Xnp6rm0dLRIo9xU5pck=</Hash>
+				<HashControl>1</HashControl>
+				<Period>09</Period>
+				<InvoiceDate>2022-09-19</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>1</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-28T10:16:31</SystemEntryDate>
+				<CustomerID>PT500201455_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-28</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua António Luís da Costa 100</AddressDetail>
+						<City>São João da Madeira</City>
+						<PostalCode>3700-310</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-28</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-28T10:18:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>FAN.0001</ProductCode>
+					<ProductDescription>Anilina Vaca Camel 123</ProductDescription>
+					<Quantity>1000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.15</UnitPrice>
+					<TaxPointDate>2022-09-19</TaxPointDate>
+					<Description>Anilina Vaca Camel 123</Description>
+					<CreditAmount>1150.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PNB.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Negro 001 1416</ProductDescription>
+					<Quantity>900</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.6</UnitPrice>
+					<TaxPointDate>2022-09-19</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Negro 001 1416</Description>
+					<CreditAmount>2340.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PNB.0002</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Navy 075 1416</ProductDescription>
+					<Quantity>950</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.6</UnitPrice>
+					<TaxPointDate>2022-09-19</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Navy 075 1416</Description>
+					<CreditAmount>2470.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>1370.80</TaxPayable>
+					<NetTotal>5960.00</NetTotal>
+					<GrossTotal>7330.80</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/6</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-28T11:24:59</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>Xc7dUi2vpgq+lDH+F+kk+7yRseuKL0SQ2fnSRBXMMwyNVFZ+VBCI2F3Zju7g3bYpaS/LOK85436wS6qQ72e+XpRArJQzTwA3MhzeBQz+2vND+w2U64c/ARwiUJnlOjCN7cWp9jVBMOmB2U+X/Bw1jgH6nrjOiqqrB2g+O1aspPQ=</Hash>
+				<HashControl>1</HashControl>
+				<Period>10</Period>
+				<InvoiceDate>2022-10-03</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>1</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-28T11:24:59</SystemEntryDate>
+				<CustomerID>PT501773576_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-28</DeliveryDate>
+					<Address>
+						<AddressDetail>Lugar Da Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-259</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-28</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-28T11:26:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>PCM.0001</ProductCode>
+					<ProductDescription>Pele Camurça Negro 001 1416</ProductDescription>
+					<Quantity>1000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.55</UnitPrice>
+					<TaxPointDate>2022-10-03</TaxPointDate>
+					<Description>Pele Camurça Negro 001 1416</Description>
+					<CreditAmount>1550.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PCR.0003</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Camel 123 1214</ProductDescription>
+					<Quantity>2000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2</UnitPrice>
+					<TaxPointDate>2022-10-03</TaxPointDate>
+					<Description>Pele Novilhos Crust Camel 123 1214</Description>
+					<CreditAmount>4000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PNB.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Negro 001 1416</ProductDescription>
+					<Quantity>1000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.6</UnitPrice>
+					<TaxPointDate>2022-10-03</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Negro 001 1416</Description>
+					<CreditAmount>2600.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>PNB.0002</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Navy 075 1416</ProductDescription>
+					<Quantity>1000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.6</UnitPrice>
+					<TaxPointDate>2022-10-03</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Navy 075 1416</Description>
+					<CreditAmount>2600.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>2472.50</TaxPayable>
+					<NetTotal>10750.00</NetTotal>
+					<GrossTotal>13222.50</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/7</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-28T14:33:25</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>Rv5acYHBqeSzolx9IS2EBlqGqxll217IdUaf+3CSNERkEdo5Vdjt8FHMPVSf9izYBllrvNEnK/QwlLpplqQm/BYLImxszj12vEYbsbtIrwX+n49OZ3qua6ztI8ty1VDeom4cGG6H+qmyRtIguK8V52r/qjehNn+LzXVoNza/Lkk=</Hash>
+				<HashControl>1</HashControl>
+				<Period>11</Period>
+				<InvoiceDate>2022-11-16</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>1</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-28T14:33:25</SystemEntryDate>
+				<CustomerID>PT500054711_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-28</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua do Monte das Ruas, 187</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-265</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-28</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-28T14:35:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>PCR.0003</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Camel 123 1214</ProductDescription>
+					<Quantity>900</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2</UnitPrice>
+					<TaxPointDate>2022-11-16</TaxPointDate>
+					<Description>Pele Novilhos Crust Camel 123 1214</Description>
+					<CreditAmount>1800.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PCR.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Negro 001 1214</ProductDescription>
+					<Quantity>980</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2</UnitPrice>
+					<TaxPointDate>2022-11-16</TaxPointDate>
+					<Description>Pele Novilhos Crust Negro 001 1214</Description>
+					<CreditAmount>1960.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PVZ.0002</ProductCode>
+					<ProductDescription>Pele Vacas Verniz Navy 075 1416</ProductDescription>
+					<Quantity>800</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.85</UnitPrice>
+					<TaxPointDate>2022-11-16</TaxPointDate>
+					<Description>Pele Vacas Verniz Navy 075 1416</Description>
+					<CreditAmount>2280.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>1389.20</TaxPayable>
+					<NetTotal>6040.00</NetTotal>
+					<GrossTotal>7429.20</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/8</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-29T23:31:03</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>Qnd5pycLAozyG9G8Yxhw5xZ54AN8kQeqXJ5nP4vDQOXG3YCLjM1rOp++6MRANRRW1qiTaA5OcPKfc2qeW2dzmCVc4RKvBr+ZAxq/mPW41WAK3BhKgCHJ0G1gZoLGdSyRu90U1SQ54dAoTqokN3IiuPa3Xd6+b9kSVQKwXJdWenU=</Hash>
+				<HashControl>1</HashControl>
+				<Period>11</Period>
+				<InvoiceDate>2022-11-21</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>1</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-29T23:31:03</SystemEntryDate>
+				<CustomerID>PT504218883_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-29</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua da Madeira, 587</AddressDetail>
+						<City>São João da Madeira</City>
+						<PostalCode>3700-176</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-29</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-29T23:33:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>FAN.0001</ProductCode>
+					<ProductDescription>Anilina Vaca Camel 123</ProductDescription>
+					<Quantity>50000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.45</UnitPrice>
+					<TaxPointDate>2022-11-21</TaxPointDate>
+					<Description>Anilina Vaca Camel 123</Description>
+					<CreditAmount>72500.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>FCR.0001</ProductCode>
+					<ProductDescription>Anilina Crute Camel 123</ProductDescription>
+					<Quantity>20000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.3</UnitPrice>
+					<TaxPointDate>2022-11-21</TaxPointDate>
+					<Description>Anilina Crute Camel 123</Description>
+					<CreditAmount>26000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PAF.0001</ProductCode>
+					<ProductDescription>Pele Afelpado Negro 001 1214</ProductDescription>
+					<Quantity>90000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.45</UnitPrice>
+					<TaxPointDate>2022-11-21</TaxPointDate>
+					<Description>Pele Afelpado Negro 001 1214</Description>
+					<CreditAmount>130500.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>PAF.0002</ProductCode>
+					<ProductDescription>Pele Afelpado Navy 075 1214</ProductDescription>
+					<Quantity>70000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.25</UnitPrice>
+					<TaxPointDate>2022-11-21</TaxPointDate>
+					<Description>Pele Afelpado Navy 075 1214</Description>
+					<CreditAmount>87500.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>5</LineNumber>
+					<ProductCode>PCM.0001</ProductCode>
+					<ProductDescription>Pele Camurça Negro 001 1416</ProductDescription>
+					<Quantity>90000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.35</UnitPrice>
+					<TaxPointDate>2022-11-21</TaxPointDate>
+					<Description>Pele Camurça Negro 001 1416</Description>
+					<CreditAmount>121500.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>6</LineNumber>
+					<ProductCode>PCR.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Negro 001 1214</ProductDescription>
+					<Quantity>50000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2</UnitPrice>
+					<TaxPointDate>2022-11-21</TaxPointDate>
+					<Description>Pele Novilhos Crust Negro 001 1214</Description>
+					<CreditAmount>100000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>7</LineNumber>
+					<ProductCode>PCR.0003</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Camel 123 1214</ProductDescription>
+					<Quantity>95000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2</UnitPrice>
+					<TaxPointDate>2022-11-21</TaxPointDate>
+					<Description>Pele Novilhos Crust Camel 123 1214</Description>
+					<CreditAmount>190000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>167440.00</TaxPayable>
+					<NetTotal>728000.00</NetTotal>
+					<GrossTotal>895440.00</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/9</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-29T23:44:18</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>OyWn9Kqs2uxD1xLUh9cGxsVh3zyA5qXuZl1ppa6f3tMUpPoqtBP3GL5LSWQJ3lFbGtLiguC4qsSlcGrWWhnMmtFIz3s3ZQZnein50ga/IXQcf1PSs+dL2s8yA/Y8WKUlrv+sLfh+eIjii9RlorSbFtQa1adldTerz0PxFnRMrhs=</Hash>
+				<HashControl>1</HashControl>
+				<Period>11</Period>
+				<InvoiceDate>2022-11-30</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>1</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-29T23:44:18</SystemEntryDate>
+				<CustomerID>PT503152293_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-29</DeliveryDate>
+					<Address>
+						<AddressDetail>Travessa do Assento, 61</AddressDetail>
+						<City>Penacova</City>
+						<PostalCode>4610-504</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-29</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-29T23:46:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>FAN.0001</ProductCode>
+					<ProductDescription>Anilina Vaca Camel 123</ProductDescription>
+					<Quantity>4000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.15</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Anilina Vaca Camel 123</Description>
+					<CreditAmount>4600.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PAF.0001</ProductCode>
+					<ProductDescription>Pele Afelpado Negro 001 1214</ProductDescription>
+					<Quantity>50000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.35</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Pele Afelpado Negro 001 1214</Description>
+					<CreditAmount>67500.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PAF.0002</ProductCode>
+					<ProductDescription>Pele Afelpado Navy 075 1214</ProductDescription>
+					<Quantity>9100</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.45</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Pele Afelpado Navy 075 1214</Description>
+					<CreditAmount>13195.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>PCM.0001</ProductCode>
+					<ProductDescription>Pele Camurça Negro 001 1416</ProductDescription>
+					<Quantity>920</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.55</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Pele Camurça Negro 001 1416</Description>
+					<CreditAmount>1426.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>5</LineNumber>
+					<ProductCode>PCR.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Negro 001 1214</ProductDescription>
+					<Quantity>1500</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Pele Novilhos Crust Negro 001 1214</Description>
+					<CreditAmount>3000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>6</LineNumber>
+					<ProductCode>PCR.0003</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Camel 123 1214</ProductDescription>
+					<Quantity>90000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Pele Novilhos Crust Camel 123 1214</Description>
+					<CreditAmount>180000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>7</LineNumber>
+					<ProductCode>PNB.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Negro 001 1416</ProductDescription>
+					<Quantity>25000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.6</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Negro 001 1416</Description>
+					<CreditAmount>65000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>8</LineNumber>
+					<ProductCode>PNB.0003</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Camel 123 1416</ProductDescription>
+					<Quantity>90000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.6</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Camel 123 1416</Description>
+					<CreditAmount>234000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>9</LineNumber>
+					<ProductCode>PVZ.0001</ProductCode>
+					<ProductDescription>Pele Vacas Verniz Negro 001 1416</ProductDescription>
+					<Quantity>1900</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.85</UnitPrice>
+					<TaxPointDate>2022-11-30</TaxPointDate>
+					<Description>Pele Vacas Verniz Negro 001 1416</Description>
+					<CreditAmount>5415.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>132051.28</TaxPayable>
+					<NetTotal>574136.00</NetTotal>
+					<GrossTotal>706187.28</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+			<Invoice>
+				<InvoiceNo>FA A/10</InvoiceNo>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<InvoiceStatus>N</InvoiceStatus>
+					<InvoiceStatusDate>2022-05-30T21:52:23</InvoiceStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>BCbK35XIZmk207QTGuC0FchCFBJdryRic6qTNB9i9l2bAQfV9ZhbkyHZty6NxgC8HANkfEEYs1RnwR/5gK3WoZAjt8hBlCbVFHxfKnBbCPmpo+FtHQt22R5pOIJBoZFr3poKD9FUJffSqSxdtcQq/Nc4vhuPJcd9atkinbLycrw=</Hash>
+				<HashControl>1</HashControl>
+				<Period>12</Period>
+				<InvoiceDate>2022-12-05</InvoiceDate>
+				<InvoiceType>FT</InvoiceType>
+				<SpecialRegimes>
+					<SelfBillingIndicator>0</SelfBillingIndicator>
+					<CashVATSchemeIndicator>1</CashVATSchemeIndicator>
+					<ThirdPartiesBillingIndicator>0</ThirdPartiesBillingIndicator>
+				</SpecialRegimes>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-30T21:52:23</SystemEntryDate>
+				<CustomerID>PT501773770_C</CustomerID>
+				<ShipTo>
+					<DeliveryDate>2022-05-30</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Santa Maria, 3211</AddressDetail>
+						<City>Sernande</City>
+						<PostalCode>4650-462</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipTo>
+				<ShipFrom>
+					<DeliveryDate>2022-05-30</DeliveryDate>
+					<Address>
+						<AddressDetail>Rua Padre José Peixoto, Estrada</AddressDetail>
+						<City>Felgueiras</City>
+						<PostalCode>4610-285</PostalCode>
+						<Country>PT</Country>
+					</Address>
+				</ShipFrom>
+				<MovementStartTime>2022-05-30T21:54:00</MovementStartTime>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>PAF.0001</ProductCode>
+					<ProductDescription>Pele Afelpado Negro 001 1214</ProductDescription>
+					<Quantity>20000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.75</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Afelpado Negro 001 1214</Description>
+					<CreditAmount>35000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>PCM.0001</ProductCode>
+					<ProductDescription>Pele Camurça Negro 001 1416</ProductDescription>
+					<Quantity>4</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>1.85</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Camurça Negro 001 1416</Description>
+					<CreditAmount>7.40</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>3</LineNumber>
+					<ProductCode>PCR.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Negro 001 1214</ProductDescription>
+					<Quantity>400</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.3</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Novilhos Crust Negro 001 1214</Description>
+					<CreditAmount>920.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>4</LineNumber>
+					<ProductCode>PCR.0003</ProductCode>
+					<ProductDescription>Pele Novilhos Crust Camel 123 1214</ProductDescription>
+					<Quantity>40000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.3</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Novilhos Crust Camel 123 1214</Description>
+					<CreditAmount>92000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>5</LineNumber>
+					<ProductCode>PNB.0001</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Negro 001 1416</ProductDescription>
+					<Quantity>3000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.9</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Negro 001 1416</Description>
+					<CreditAmount>8700.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>6</LineNumber>
+					<ProductCode>PNB.0002</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Navy 075 1416</ProductDescription>
+					<Quantity>30000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.9</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Navy 075 1416</Description>
+					<CreditAmount>87000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>7</LineNumber>
+					<ProductCode>PNB.0003</ProductCode>
+					<ProductDescription>Pele Novilhos Nobuck Camel 123 1416</ProductDescription>
+					<Quantity>40000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>2.9</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Novilhos Nobuck Camel 123 1416</Description>
+					<CreditAmount>116000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>8</LineNumber>
+					<ProductCode>PVZ.0001</ProductCode>
+					<ProductDescription>Pele Vacas Verniz Negro 001 1416</ProductDescription>
+					<Quantity>40</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>3.15</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Vacas Verniz Negro 001 1416</Description>
+					<CreditAmount>126.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>9</LineNumber>
+					<ProductCode>PVZ.0002</ProductCode>
+					<ProductDescription>Pele Vacas Verniz Navy 075 1416</ProductDescription>
+					<Quantity>80000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>3.15</UnitPrice>
+					<TaxPointDate>2022-12-05</TaxPointDate>
+					<Description>Pele Vacas Verniz Navy 075 1416</Description>
+					<CreditAmount>252000.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>136103.28</TaxPayable>
+					<NetTotal>591753.40</NetTotal>
+					<GrossTotal>727856.68</GrossTotal>
+				</DocumentTotals>
+				<WithholdingTax>
+					<WithholdingTaxAmount>0.00</WithholdingTaxAmount>
+				</WithholdingTax>
+			</Invoice>
+		</SalesInvoices>
+		<WorkingDocuments>
+			<NumberOfEntries>1</NumberOfEntries>
+			<TotalDebit>0.00</TotalDebit>
+			<TotalCredit>1750.00</TotalCredit>
+			<WorkDocument>
+				<DocumentNumber>ECL A/1</DocumentNumber>
+				<ATCUD>0</ATCUD>
+				<DocumentStatus>
+					<WorkStatus>N</WorkStatus>
+					<WorkStatusDate>2022-05-27T11:08:07</WorkStatusDate>
+					<SourceID>ESTG</SourceID>
+					<SourceBilling>P</SourceBilling>
+				</DocumentStatus>
+				<Hash>0</Hash>
+				<HashControl>0</HashControl>
+				<Period>02</Period>
+				<WorkDate>2022-02-28</WorkDate>
+				<WorkType>NE</WorkType>
+				<SourceID>ESTG</SourceID>
+				<SystemEntryDate>2022-05-27T11:08:07</SystemEntryDate>
+				<CustomerID>PT549620109_C</CustomerID>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<ProductCode>FAN.0001</ProductCode>
+					<ProductDescription>Anilina Vaca Camel 123</ProductDescription>
+					<Quantity>1000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>0.95</UnitPrice>
+					<TaxPointDate>2022-05-27</TaxPointDate>
+					<Description>Anilina Vaca Camel 123</Description>
+					<CreditAmount>950.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<Line>
+					<LineNumber>2</LineNumber>
+					<ProductCode>FCR.0001</ProductCode>
+					<ProductDescription>Anilina Crute Camel 123</ProductDescription>
+					<Quantity>1000</Quantity>
+					<UnitOfMeasure>PE2</UnitOfMeasure>
+					<UnitPrice>0.8</UnitPrice>
+					<TaxPointDate>2022-05-27</TaxPointDate>
+					<Description>Anilina Crute Camel 123</Description>
+					<CreditAmount>800.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+					<SettlementAmount>0.00</SettlementAmount>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>402.50</TaxPayable>
+					<NetTotal>1750.00</NetTotal>
+					<GrossTotal>2152.50</GrossTotal>
+				</DocumentTotals>
+			</WorkDocument>
+		</WorkingDocuments>
+		<Payments>
+			<NumberOfEntries>3</NumberOfEntries>
+			<TotalDebit>0.00</TotalDebit>
+			<TotalCredit>22750.00</TotalCredit>
+			<Payment>
+				<PaymentRefNo>RE A/1</PaymentRefNo>
+				<ATCUD>0</ATCUD>
+				<Period>10</Period>
+				<TransactionID>2022-10-03 00031 100001</TransactionID>
+				<TransactionDate>2022-10-03</TransactionDate>
+				<PaymentType>RC</PaymentType>
+				<DocumentStatus>
+					<PaymentStatus>N</PaymentStatus>
+					<PaymentStatusDate>2022-10-03T00:00:00</PaymentStatusDate>
+					<SourceID>estg</SourceID>
+					<SourcePayment>P</SourcePayment>
+				</DocumentStatus>
+				<PaymentMethod>
+					<PaymentMechanism>NU</PaymentMechanism>
+					<PaymentAmount>0.00</PaymentAmount>
+					<PaymentDate>2022-10-03</PaymentDate>
+				</PaymentMethod>
+				<SourceID>estg</SourceID>
+				<SystemEntryDate>2022-05-28T12:05:23</SystemEntryDate>
+				<CustomerID>PT501773576_C</CustomerID>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<SourceDocumentID>
+						<OriginatingON>FA A/6</OriginatingON>
+						<InvoiceDate>2022-10-03</InvoiceDate>
+					</SourceDocumentID>
+					<SettlementAmount>0.00</SettlementAmount>
+					<CreditAmount>10750.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>2472.50</TaxPayable>
+					<NetTotal>10750.00</NetTotal>
+					<GrossTotal>13222.50</GrossTotal>
+					<Settlement>
+						<SettlementAmount>0.00</SettlementAmount>
+					</Settlement>
+				</DocumentTotals>
+			</Payment>
+			<Payment>
+				<PaymentRefNo>RE A/2</PaymentRefNo>
+				<ATCUD>0</ATCUD>
+				<Period>09</Period>
+				<TransactionID>2022-09-19 00031 90001</TransactionID>
+				<TransactionDate>2022-09-19</TransactionDate>
+				<PaymentType>RC</PaymentType>
+				<DocumentStatus>
+					<PaymentStatus>N</PaymentStatus>
+					<PaymentStatusDate>2022-09-19T00:00:00</PaymentStatusDate>
+					<SourceID>estg</SourceID>
+					<SourcePayment>P</SourcePayment>
+				</DocumentStatus>
+				<PaymentMethod>
+					<PaymentMechanism>CH</PaymentMechanism>
+					<PaymentAmount>0.00</PaymentAmount>
+					<PaymentDate>2022-09-21</PaymentDate>
+				</PaymentMethod>
+				<SourceID>estg</SourceID>
+				<SystemEntryDate>2022-05-28T12:14:50</SystemEntryDate>
+				<CustomerID>PT500201455_C</CustomerID>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<SourceDocumentID>
+						<OriginatingON>FA A/5</OriginatingON>
+						<InvoiceDate>2022-09-19</InvoiceDate>
+					</SourceDocumentID>
+					<SettlementAmount>0.00</SettlementAmount>
+					<CreditAmount>5960.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>1370.80</TaxPayable>
+					<NetTotal>5960.00</NetTotal>
+					<GrossTotal>7330.80</GrossTotal>
+					<Settlement>
+						<SettlementAmount>0.00</SettlementAmount>
+					</Settlement>
+				</DocumentTotals>
+			</Payment>
+			<Payment>
+				<PaymentRefNo>RE A/3</PaymentRefNo>
+				<ATCUD>0</ATCUD>
+				<Period>11</Period>
+				<TransactionID>2022-11-16 00031 110001</TransactionID>
+				<TransactionDate>2022-11-16</TransactionDate>
+				<PaymentType>RC</PaymentType>
+				<DocumentStatus>
+					<PaymentStatus>N</PaymentStatus>
+					<PaymentStatusDate>2022-11-16T00:00:00</PaymentStatusDate>
+					<SourceID>estg</SourceID>
+					<SourcePayment>P</SourcePayment>
+				</DocumentStatus>
+				<PaymentMethod>
+					<PaymentMechanism>CH</PaymentMechanism>
+					<PaymentAmount>0.00</PaymentAmount>
+					<PaymentDate>2022-11-18</PaymentDate>
+				</PaymentMethod>
+				<SourceID>estg</SourceID>
+				<SystemEntryDate>2022-05-28T14:37:17</SystemEntryDate>
+				<CustomerID>PT500054711_C</CustomerID>
+				<Line>
+					<LineNumber>1</LineNumber>
+					<SourceDocumentID>
+						<OriginatingON>FA A/7</OriginatingON>
+						<InvoiceDate>2022-11-16</InvoiceDate>
+					</SourceDocumentID>
+					<SettlementAmount>0.00</SettlementAmount>
+					<CreditAmount>6040.00</CreditAmount>
+					<Tax>
+						<TaxType>IVA</TaxType>
+						<TaxCountryRegion>PT</TaxCountryRegion>
+						<TaxCode>NOR</TaxCode>
+						<TaxPercentage>23.00</TaxPercentage>
+					</Tax>
+				</Line>
+				<DocumentTotals>
+					<TaxPayable>1389.20</TaxPayable>
+					<NetTotal>6040.00</NetTotal>
+					<GrossTotal>7429.20</GrossTotal>
+					<Settlement>
+						<SettlementAmount>0.00</SettlementAmount>
+					</Settlement>
+				</DocumentTotals>
+			</Payment>
+		</Payments>
+	</SourceDocuments>
+</AuditFile>
